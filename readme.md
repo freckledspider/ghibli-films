@@ -20,4 +20,3 @@ This application is made to retrieve information on any of the Studio Ghibli fil
 
 ### Link to Project
 [My Project Live Page](https://freckledspider.github.io/project1/)
-
