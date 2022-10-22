@@ -7,6 +7,10 @@ This application is made to retrieve information on any of the Studio Ghibli fil
 - CSS
 - Javascript
 
+### Wireframe
+
+![image](https://i.imgur.com/kv08aRQl.jpg)
+
 ![image](https://i1.wp.com/cornellsun.com/wp-content/uploads/2020/10/my-neighbor-tortoro-magnum.jpg?fit=600%2C327&ssl=1)
 
 ### Goals
