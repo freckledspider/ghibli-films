@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://i.pinimg.com/originals/de/cd/f5/decdf55a8d01518c735ddba411543e05.png") no-repeat fixed center;
+  }
+  
+  #main {
+    padding: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 200px;
+  }
