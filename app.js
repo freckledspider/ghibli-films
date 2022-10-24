@@ -1,37 +1,19 @@
 // ------------------------------------------------------
-// Studio Ghibli Film Search
+// Studio Ghibli Film Database
 // ------------------------------------------------------
 
-const searchGhibli = document.getElementById("searchButton");
-const ghibliSearch = document.getElementById("ghibliSearch");
-const result = document.getElementById("results")
+const getGhibliData = () => {
 
+		const apiCall = `https://ghibliapi.herokuapp.com/films`;
+	
+		fetch(apiCall)
+			.then(response => response.json())
+			.then(data => {
+				console.log(data)
+				const title = data[0].title
+				main.innerHTML = `<h3>${title}</h3>`
+	;})
+	};
 
-const getGhibliResults = () => {
-
-
-	const city = ghibliSearch.value;
-	const apiKey = ``;
-	const apiCall = ``;
-
-
-	fetch(apiCall)
-
-		.then(response => response.json())
-		.then(data => {
-
-			const {temp} = data.list[0].main; 
-            const {humidity} = data.list[0].main;
-			const {description} = data.list[0].weather[0];
-
-			weatherResults.innerHTML = `
-
-<h3>Search Results</h3>
-<button onClick="window.location.reload();" class="newsearch">New Search</button>
-`
-;})
-};
-
-searchGhibli.onclick = function() {
-	getGhibliResults();
-};
+	
+getGhibliData()
