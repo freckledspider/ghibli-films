@@ -9,19 +9,19 @@ body {
   }
   
   .card {
-    padding: 40px;
-    margin: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     border: none;
-    background-color: #68a790;
+    background-color: #7bad87;
     display: block;
-    height: 500px;
     width: 800px;
     margin-left: 400px;
   }
   
   .poster {
     display: block;
-    width: 250px;
+    width: 150px;
     height: auto;
     float: left;
     margin: 20px;
@@ -37,18 +37,35 @@ body {
   }
 
   .description {
-    padding: none;
+    padding: 10px;
     color: #283728;
     font-family: helvetica;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0px;
   }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 34px;
+    color: white;
+    width: 800px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    background-color: #37695c;
+  }
+
 
   h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 38px;
+    font-size: 34px;
     color: white;
     padding: 0px;
     margin: 0px;
@@ -59,7 +76,7 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
     color: #37695c;
     padding: 0px;
     margin: 0px;
