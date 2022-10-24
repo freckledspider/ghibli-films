@@ -9,9 +9,66 @@ body {
   }
   
   .card {
-    padding: 20px;
+    padding: 40px;
+    margin: 20px;
+    border: none;
+    background-color: #68a790;
+    display: block;
+    height: 500px;
+    width: 800px;
+    margin-left: 400px;
   }
   
-  .card img {
-    width: 200px;
+  .poster {
+    display: block;
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 20px;
+    border-radius: 8px;
   }
+
+  .banner {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+  }
+
+  .description {
+    padding: none;
+    color: #283728;
+    font-family: helvetica;
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 38px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #37695c;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+  }
+
+.totoro {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 550px;;
+}

@@ -65,9 +65,13 @@ const loopData = () => {
   function createElement(data, id) {
 	const film = document.querySelector(id);
 	let filmCard = `<div class="card">
-	<h2>${data.title}</h2>
-	<img src="${data.image}"/>
-	<p>${data.description}</p>
+
+	<h2>${data.title} (${data.release_date})</h2>
+	<h3>${data.original_title} (${data.original_title_romanised})</h3>
+
+	<img class="poster" src="${data.image}"/>
+	<p class="description">${data.description}</p>
+	<p><img class="banner" src="${data.movie_banner}"></p>
 	</div>`;
 	film.innerHTML += filmCard;
   }
