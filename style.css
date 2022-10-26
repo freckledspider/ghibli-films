@@ -1,47 +1,124 @@
+
 body {
-    margin: 0;
-    padding: 0;
-    background: url("https://i.pinimg.com/originals/de/cd/f5/decdf55a8d01518c735ddba411543e05.png") no-repeat fixed;
-    background-size: cover;
-  }
+  margin: 0;
+  padding: 0;
+  background: url("https://i.pinimg.com/originals/de/cd/f5/decdf55a8d01518c735ddba411543e05.png") no-repeat fixed;
+  background-size: cover;
+}
   
-  #main {
+#main {
     padding: 20px;
-  }
+}
   
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(160, 158, 142, 0.8);
+  display: block;
+  width: 800px;
+  margin-left: 400px;
+}
+  
+.poster {
+  display: block;
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.banner {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.description {
+  padding: 10px;
+  color: #283728;
+  font-family: helvetica;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 42px;
+  color: white;
+  width: 800px;
+  padding: 20px;
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: block;
+  text-align: center;
+  background-color: rgb(39, 55, 40, 0.9);
+}
+
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 34px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #273728;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.totoro {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 550px;;
+}
+
+
+/* media queries for mobile phones */
+
+@media screen and (max-width: 480px){
+  .totoro {
+    width: 400px;
+    position: fixed;
+    top: -20px;
+  }
+
   .card {
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border: none;
     background-color: rgb(160, 158, 142, 0.8);
     display: block;
-    width: 800px;
-    margin-left: 400px;
-  }
-  
-  .poster {
-    display: block;
-    width: 150px;
-    height: auto;
-    float: left;
-    margin: 20px;
-    border-radius: 8px;
-  }
-
-  .banner {
     width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
   }
 
   .description {
-    padding: 10px;
+    padding: 5px;
     color: #283728;
     font-family: helvetica;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 0px;
   }
 
@@ -49,24 +126,24 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 42px;
+    font-size: 24px;
     color: white;
-    width: 800px;
-    padding: 20px;
-    margin-left: 400px;
-    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
     margin-bottom: 20px;
     display: block;
     text-align: center;
     background-color: rgb(39, 55, 40, 0.9);
   }
 
-
   h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 34px;
+    font-size: 14px;
     color: white;
     padding: 0px;
     margin: 0px;
@@ -77,16 +154,10 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 10px;
     color: #273728;
     padding: 0px;
     margin: 0px;
     text-align: right;
   }
-
-.totoro {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 550px;;
 }
