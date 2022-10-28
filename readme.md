@@ -1,11 +1,11 @@
-# Studio Ghibli Movie Search
+# Studio Ghibli Film Data
 
-This application is made to retrieve information on any of the Studio Ghibli films. Information includes the title, original title, description, director, producer, release date, running time, movie images, rotten tomato score, and more.
+This application is made to view information on any of the Studio Ghibli films. Information includes the title, original title, romanised title, description, year, and some pictures of the movie.
 
 ### Technologies Used
 - HTML5
 - CSS
-- Javascript
+- Javascript (Node.js)
 
 ### Wireframe
 
@@ -17,9 +17,10 @@ This application is made to retrieve information on any of the Studio Ghibli fil
 | Completed? | Goal |
 |-----|------|
 |✓|Choose API|
-| |Organize data|
-| |Render data to screen|
-| |Create form|
+|✓|Organize data|
+|✓|Render data to screen|
+|✓|Style CSS|
+|✓|Create media query for mobile|
 
 ### Link to Project
 [My Project Live Page](https://freckledspider.github.io/project1/)
