@@ -96,6 +96,10 @@ h3 {
 /* media queries for mobile phones */
 
 @media screen and (max-width: 480px){
+  body{
+    background-size: auto;
+  }
+  
   .totoro {
     width: 400px;
     position: fixed;
