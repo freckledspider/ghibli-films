@@ -98,6 +98,7 @@ h3 {
 @media screen and (max-width: 480px){
   body{
     background-size: auto;
+    background: url("bg.png") no-repeat fixed;
   }
   
   .totoro {
